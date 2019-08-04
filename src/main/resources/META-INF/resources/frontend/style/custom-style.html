@@ -1,0 +1,184 @@
+<custom-style>
+    <style>
+
+        .img-view {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+
+        .img-container {
+            display: inline-block;
+            position: relative;
+        }
+
+        .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+            width: 12px;
+            height: 12px;
+        }
+
+        .img-gallery {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 2px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .img-gallery:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+            cursor: pointer;
+        }
+
+        .ikon:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .v-reconnect-dialog {
+            visibility: visible;
+            border: 1px solid lightslategray;
+            background-color: slategray;
+            color: lightgray;
+            box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, .4);
+            border-radius: 4px;
+        }
+
+        .main-layout__nav-item {
+            border-radius: 4px;
+            background-color: #dddee2;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.3s color, 0.3s transform;
+            will-change: transform;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-size: var(--lumo-font-size-s);
+            color: var(--lumo-secondary-text-color);
+            font-weight: 500;
+            line-height: 1.3;
+            border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+            border-width: 1px;
+            padding: 4px 8px;
+        }
+
+        .main-layout__nav-item:hover {
+            text-decoration: none;
+        }
+
+        .main-layout__nav-item:not([highlight]):hover {
+            color: inherit;
+            background-color: #dedfe3;
+        }
+
+        .main-layout__nav-item[highlight] {
+            color: var(--lumo-primary-text-color);
+            cursor: default;
+        }
+
+        .main-layout__nav-item iron-icon {
+            /* Vaadin icons are using a 16x16 grid*/
+            padding: 4px;
+            /* box-sizing: border-box;*/
+            pointer-events: none;
+        }
+
+        .route-link {
+            border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+            border-style: solid;
+            border-width: 1px;
+            padding: 1px 7px 2px;
+        }
+
+        .user-login:hover {
+            cursor: pointer;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+
+        .btn-danger {
+            color: #fff;
+            background-color: #d9534f;
+            border-color: #d43f3a;
+        }
+
+        .btn-group-xs > .btn, .btn-xs {
+            padding: 1px 5px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;
+        }
+
+    </style>
+</custom-style>
+
+<dom-module theme-for="vaadin-text-field" id="color-red">
+    <template>
+        <style>
+            :host(.color-red) [part="value"] {
+                color: red;
+            }
+        </style>
+    </template>
+</dom-module>
+
+<dom-module theme-for="vaadin-select" id="lang">
+    <template>
+        <style>
+            [part$="button"] {
+                flex: none;
+                width: 1em;
+                height: 1em;
+                line-height: 1;
+                font-size: larger;
+                text-align: center;
+                color: var(--lumo-contrast-60pct);
+                transition: 0.2s color;
+                cursor: var(--lumo-clickable-cursor);
+            }
+        </style>
+    </template>
+</dom-module>
+
+<dom-module theme-for="vaadin-upload" id="jarvis-upload">
+    <template>
+        <style>
+            slot[name="file-list"]{
+                display: none;
+            }
+        </style>
+    </template>
+</dom-module>

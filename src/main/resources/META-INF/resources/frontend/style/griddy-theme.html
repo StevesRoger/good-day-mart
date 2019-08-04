@@ -1,0 +1,14 @@
+<dom-module theme-for="vaadin-grid" id="statistic-grid">
+    <template>
+        <style>
+            [part~="row"]:hover [part~="body-cell"] {
+                background-color: #E8F1FD;
+            }
+
+            :host(:not([reordering])) [part~="row"][selected] [part~="body-cell"]:not([part~="details-cell"]) {
+                background: lightsteelblue;
+            }
+
+        </style>
+    </template>
+</dom-module>

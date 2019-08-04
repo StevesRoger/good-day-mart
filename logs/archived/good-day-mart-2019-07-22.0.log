@@ -1,0 +1,337 @@
+2019-07-22 21:50:15,576 INFO org.springframework.boot.StartupInfoLogger [main] Starting PhMartApplication on Jarvis with PID 7184 (C:\Users\KimChheng\Desktop\good-day-mart\target\classes started by KimChheng in C:\Users\KimChheng\Desktop\good-day-mart)
+2019-07-22 21:50:15,587 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-22 21:50:17,800 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 21:50:17,806 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 21:50:17,926 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91ms. Found 0 repository interfaces.
+2019-07-22 21:50:18,707 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$5d3f83f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 21:50:18,734 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d263005] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 21:50:18,796 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 21:50:18,804 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2f4c2cd4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 21:50:18,814 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2aa89af1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 21:50:18,823 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 21:50:19,627 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-07-22 21:50:19,654 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-22 21:50:19,674 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-07-22 21:50:19,675 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-07-22 21:50:19,691 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY\;C:\Program Files\Dart\dart-sdk\bin;;C:\Users\KimChheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KimChheng\AppData\Roaming\npm;D:\software\apache-maven-3.3.9\bin;C:\flutter\bin;.]
+2019-07-22 21:50:20,116 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-07-22 21:50:20,118 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4346 ms
+2019-07-22 21:50:21,356 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-22 21:50:21,513 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-07-22 21:50:21,518 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-07-22 21:50:21,913 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-22 21:50:22,308 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2019-07-22 21:50:22,345 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-07-22 21:50:22,360 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7e2c6702
+2019-07-22 21:50:22,374 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [main] Envers integration enabled? : true
+2019-07-22 21:50:24,428 WARN org.hibernate.boot.internal.SessionFactoryOptionsBuilder [main] HHH90000021: Encountered deprecated setting [hibernate.ejb.interceptor], use [hibernate.session_factory.interceptor] instead
+2019-07-22 21:50:26,237 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-22 21:50:27,475 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/VAADIN/**'], []
+2019-07-22 21:50:27,476 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-07-22 21:50:27,478 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/robots.txt'], []
+2019-07-22 21:50:27,480 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/manifest.webmanifest'], []
+2019-07-22 21:50:27,481 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/manifest.json'], []
+2019-07-22 21:50:27,483 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/sw.js'], []
+2019-07-22 21:50:27,483 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/offline-page.html'], []
+2019-07-22 21:50:27,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/offline.html'], []
+2019-07-22 21:50:27,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend/**'], []
+2019-07-22 21:50:27,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/backend/**'], []
+2019-07-22 21:50:27,485 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-07-22 21:50:27,487 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend-es5/**'], []
+2019-07-22 21:50:27,487 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend-es6/**'], []
+2019-07-22 21:50:27,580 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c2e73ce, org.springframework.security.web.context.SecurityContextPersistenceFilter@62f3ad90, org.springframework.security.web.header.HeaderWriterFilter@43a72f0f, org.springframework.security.web.authentication.logout.LogoutFilter@15d68a50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1964ef9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18d63996, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@306c8e09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3891db3a, org.springframework.security.web.session.SessionManagementFilter@1fa77770, org.springframework.security.web.access.ExceptionTranslationFilter@2f2a5064, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b84d03d]
+2019-07-22 21:50:28,087 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 21:50:28,182 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-22 21:50:28,409 INFO org.jarvis.core.autoconfigure.ApplicationContextProvider [main] init application context to ContextUtil
+2019-07-22 21:50:28,410 INFO org.jarvis.core.autoconfigure.ApplicationContextProvider [main] init environment bean to ContextUtil 
+2019-07-22 21:50:29,106 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-07-22 21:50:29,106 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-07-22 21:50:29,180 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-07-22 21:50:29,201 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-07-22 21:50:29,215 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-07-22 21:50:29,226 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] JSR 356 Mapping path /vaadinServlet
+2019-07-22 21:50:29,241 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installing Default AtmosphereInterceptors
+2019-07-22 21:50:29,244 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-07-22 21:50:29,244 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-07-22 21:50:29,245 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-07-22 21:50:29,246 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-07-22 21:50:29,248 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-07-22 21:50:29,249 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-07-22 21:50:29,249 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-07-22 21:50:29,252 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-07-22 21:50:29,252 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-07-22 21:50:29,253 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-07-22 21:50:29,253 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-07-22 21:50:29,253 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-07-22 21:50:29,255 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-07-22 21:50:29,257 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,259 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,259 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,259 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,260 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,261 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,261 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,261 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-07-22 21:50:29,262 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-07-22 21:50:29,263 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-07-22 21:50:29,263 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-07-22 21:50:29,263 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-07-22 21:50:29,264 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Broadcaster Shared List Resources: false
+2019-07-22 21:50:29,264 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Broadcaster Polling Wait Time 100
+2019-07-22 21:50:29,264 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Shared ExecutorService supported: true
+2019-07-22 21:50:29,264 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-07-22 21:50:29,265 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Async I/O Thread Pool Size: 200
+2019-07-22 21:50:29,265 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-07-22 21:50:29,265 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-07-22 21:50:29,265 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-07-22 21:50:29,269 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Invoke AtmosphereInterceptor on WebSocket message true
+2019-07-22 21:50:29,270 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] HttpSession supported: true
+2019-07-22 21:50:29,270 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-07-22 21:50:29,270 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.16 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-07-22 21:50:29,271 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere Framework 2.4.30.vaadin1 started.
+2019-07-22 21:50:29,279 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-07-22 21:50:29,331 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-07-22 21:50:29,392 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-22 21:50:29,399 INFO org.springframework.boot.StartupInfoLogger [main] Started PhMartApplication in 14.615 seconds (JVM running for 21.677)
+2019-07-22 21:51:33,680 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 21:51:33,681 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-22 21:51:33,708 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 25 ms
+2019-07-22 21:51:33,870 WARN com.vaadin.flow.server.DefaultDeploymentConfiguration [http-nio-8080-exec-2] 
+===========================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+===========================================================
+2019-07-22 21:51:40,654 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-10] HHH000397: Using ASTQueryTranslatorFactory
+2019-07-22 21:51:41,292 INFO org.jarvis.phmart.view.sale.SalePresenter [http-nio-8080-exec-9] org.jarvis.phmart.view.sale.SalePresenter@20bcdad0
+2019-07-22 21:51:41,782 INFO org.jarvis.phmart.view.sale.SaleViewImpl [http-nio-8080-exec-9] org.jarvis.phmart.view.sale.SaleViewImpl@6a2fed51
+2019-07-22 21:51:46,574 INFO org.jarvis.phmart.view.product.ProductPresenter [http-nio-8080-exec-8] org.jarvis.phmart.view.product.ProductPresenter@13414c3a
+2019-07-22 21:51:46,963 INFO org.jarvis.phmart.view.product.ProductViewImpl [http-nio-8080-exec-8] org.jarvis.phmart.view.product.ProductViewImpl@1ba7a047
+2019-07-22 21:51:55,749 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-3] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl
+2019-07-22 21:52:00,828 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-5] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl
+2019-07-22 21:53:33,580 INFO org.jarvis.phmart.view.sale.SaleViewImpl [http-nio-8080-exec-3] org.jarvis.phmart.view.sale.SaleViewImpl@484816eb
+2019-07-22 21:53:35,685 INFO org.jarvis.phmart.view.product.ProductViewImpl [http-nio-8080-exec-5] org.jarvis.phmart.view.product.ProductViewImpl@717b74cc
+2019-07-22 22:13:47,074 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-3] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl
+2019-07-22 22:37:27,159 INFO org.springframework.boot.StartupInfoLogger [main] Starting PhMartApplication on Jarvis with PID 9748 (C:\Users\KimChheng\Desktop\good-day-mart\target\classes started by KimChheng in C:\Users\KimChheng\Desktop\good-day-mart)
+2019-07-22 22:37:27,163 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-22 22:37:28,518 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 22:37:28,523 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 22:37:28,628 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+2019-07-22 22:37:29,159 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7ced0c55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:37:29,173 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e43f441b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:37:29,206 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:37:29,210 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2264ea32' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:37:29,216 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a1c1af07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:37:29,228 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:37:29,723 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-07-22 22:37:29,756 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-22 22:37:29,775 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-07-22 22:37:29,776 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-07-22 22:37:29,786 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY\;C:\Program Files\Dart\dart-sdk\bin;;C:\Users\KimChheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KimChheng\AppData\Roaming\npm;D:\software\apache-maven-3.3.9\bin;C:\flutter\bin;.]
+2019-07-22 22:37:30,048 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-07-22 22:37:30,048 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2820 ms
+2019-07-22 22:37:30,857 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-22 22:37:30,952 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-07-22 22:37:30,955 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-07-22 22:37:31,158 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-22 22:37:31,372 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2019-07-22 22:37:31,408 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-07-22 22:37:31,419 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@510da778
+2019-07-22 22:37:31,428 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [main] Envers integration enabled? : true
+2019-07-22 22:37:33,002 WARN org.hibernate.boot.internal.SessionFactoryOptionsBuilder [main] HHH90000021: Encountered deprecated setting [hibernate.ejb.interceptor], use [hibernate.session_factory.interceptor] instead
+2019-07-22 22:37:34,616 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-22 22:37:35,598 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/VAADIN/**'], []
+2019-07-22 22:37:35,599 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-07-22 22:37:35,599 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/robots.txt'], []
+2019-07-22 22:37:35,600 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/manifest.webmanifest'], []
+2019-07-22 22:37:35,600 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/manifest.json'], []
+2019-07-22 22:37:35,600 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/sw.js'], []
+2019-07-22 22:37:35,601 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/offline-page.html'], []
+2019-07-22 22:37:35,601 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/offline.html'], []
+2019-07-22 22:37:35,601 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend/**'], []
+2019-07-22 22:37:35,602 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/backend/**'], []
+2019-07-22 22:37:35,602 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-07-22 22:37:35,602 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend-es5/**'], []
+2019-07-22 22:37:35,602 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend-es6/**'], []
+2019-07-22 22:37:35,689 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b8ce72, org.springframework.security.web.context.SecurityContextPersistenceFilter@735b1ad2, org.springframework.security.web.header.HeaderWriterFilter@d695f9d, org.springframework.security.web.authentication.logout.LogoutFilter@1d77d9c6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a3c1b56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34893693, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45dfb6a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ce4eb42, org.springframework.security.web.session.SessionManagementFilter@6df4d8f1, org.springframework.security.web.access.ExceptionTranslationFilter@d827673, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55c78556]
+2019-07-22 22:37:36,071 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 22:37:36,188 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-22 22:37:36,374 INFO org.jarvis.core.autoconfigure.ApplicationContextProvider [main] init application context to ContextUtil
+2019-07-22 22:37:36,374 INFO org.jarvis.core.autoconfigure.ApplicationContextProvider [main] init environment bean to ContextUtil 
+2019-07-22 22:37:36,949 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-07-22 22:37:36,950 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-07-22 22:37:37,013 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-07-22 22:37:37,029 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-07-22 22:37:37,040 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-07-22 22:37:37,046 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] JSR 356 Mapping path /vaadinServlet
+2019-07-22 22:37:37,060 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installing Default AtmosphereInterceptors
+2019-07-22 22:37:37,062 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-07-22 22:37:37,062 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-07-22 22:37:37,063 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-07-22 22:37:37,064 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-07-22 22:37:37,064 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-07-22 22:37:37,065 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-07-22 22:37:37,065 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-07-22 22:37:37,067 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-07-22 22:37:37,068 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-07-22 22:37:37,069 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-07-22 22:37:37,069 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-07-22 22:37:37,070 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-07-22 22:37:37,070 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-07-22 22:37:37,071 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,072 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,073 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,073 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,073 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,074 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,074 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,074 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-07-22 22:37:37,075 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-07-22 22:37:37,076 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-07-22 22:37:37,076 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-07-22 22:37:37,076 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-07-22 22:37:37,076 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Broadcaster Shared List Resources: false
+2019-07-22 22:37:37,077 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Broadcaster Polling Wait Time 100
+2019-07-22 22:37:37,077 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Shared ExecutorService supported: true
+2019-07-22 22:37:37,077 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-07-22 22:37:37,077 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Async I/O Thread Pool Size: 200
+2019-07-22 22:37:37,078 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-07-22 22:37:37,078 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-07-22 22:37:37,078 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-07-22 22:37:37,081 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Invoke AtmosphereInterceptor on WebSocket message true
+2019-07-22 22:37:37,081 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] HttpSession supported: true
+2019-07-22 22:37:37,081 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-07-22 22:37:37,082 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.16 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-07-22 22:37:37,082 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere Framework 2.4.30.vaadin1 started.
+2019-07-22 22:37:37,087 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-07-22 22:37:37,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-07-22 22:37:37,141 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-22 22:37:37,146 INFO org.springframework.boot.StartupInfoLogger [main] Started PhMartApplication in 10.546 seconds (JVM running for 13.072)
+2019-07-22 22:38:30,678 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 22:38:30,678 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-22 22:38:30,691 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2019-07-22 22:38:30,783 WARN com.vaadin.flow.server.DefaultDeploymentConfiguration [http-nio-8080-exec-2] 
+===========================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+===========================================================
+2019-07-22 22:38:38,090 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-4] HHH000397: Using ASTQueryTranslatorFactory
+2019-07-22 22:38:38,502 INFO org.jarvis.phmart.view.sale.SalePresenter [http-nio-8080-exec-8] org.jarvis.phmart.view.sale.SalePresenter@163b8498
+2019-07-22 22:38:38,873 INFO org.jarvis.phmart.view.sale.SaleViewImpl [http-nio-8080-exec-8] org.jarvis.phmart.view.sale.SaleViewImpl@2be573d1
+2019-07-22 22:39:42,715 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-6] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl
+2019-07-22 22:44:38,365 INFO org.springframework.boot.StartupInfoLogger [main] Starting PhMartApplication on Jarvis with PID 8228 (C:\Users\KimChheng\Desktop\good-day-mart\target\classes started by KimChheng in C:\Users\KimChheng\Desktop\good-day-mart)
+2019-07-22 22:44:38,374 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-22 22:44:40,782 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 22:44:40,789 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 22:44:40,974 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 140ms. Found 0 repository interfaces.
+2019-07-22 22:44:41,933 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e023ed7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:44:41,965 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47762540] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:44:42,031 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:44:42,035 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7e0bc8a3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:44:42,044 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$4f8902c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:44:42,051 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 22:44:42,763 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-07-22 22:44:42,804 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-22 22:44:42,833 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-07-22 22:44:42,834 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-07-22 22:44:42,848 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY\;C:\Program Files\Dart\dart-sdk\bin;;C:\Users\KimChheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KimChheng\AppData\Roaming\npm;D:\software\apache-maven-3.3.9\bin;C:\flutter\bin;.]
+2019-07-22 22:44:43,199 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-07-22 22:44:43,199 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4730 ms
+2019-07-22 22:44:44,237 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-22 22:44:44,346 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-07-22 22:44:44,348 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-07-22 22:44:44,590 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-22 22:44:44,822 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2019-07-22 22:44:44,851 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-07-22 22:44:44,861 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@26d40c77
+2019-07-22 22:44:44,868 INFO org.hibernate.envers.boot.internal.EnversServiceImpl [main] Envers integration enabled? : true
+2019-07-22 22:44:46,384 WARN org.hibernate.boot.internal.SessionFactoryOptionsBuilder [main] HHH90000021: Encountered deprecated setting [hibernate.ejb.interceptor], use [hibernate.session_factory.interceptor] instead
+2019-07-22 22:44:47,808 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-22 22:44:48,676 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/VAADIN/**'], []
+2019-07-22 22:44:48,677 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-07-22 22:44:48,677 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/robots.txt'], []
+2019-07-22 22:44:48,677 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/manifest.webmanifest'], []
+2019-07-22 22:44:48,678 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/manifest.json'], []
+2019-07-22 22:44:48,678 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/sw.js'], []
+2019-07-22 22:44:48,679 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/offline-page.html'], []
+2019-07-22 22:44:48,679 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/offline.html'], []
+2019-07-22 22:44:48,679 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend/**'], []
+2019-07-22 22:44:48,679 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/backend/**'], []
+2019-07-22 22:44:48,680 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/**'], []
+2019-07-22 22:44:48,680 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend-es5/**'], []
+2019-07-22 22:44:48,680 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/frontend-es6/**'], []
+2019-07-22 22:44:48,746 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fb24ad8, org.springframework.security.web.context.SecurityContextPersistenceFilter@464017f5, org.springframework.security.web.header.HeaderWriterFilter@5319e4fc, org.springframework.security.web.authentication.logout.LogoutFilter@601ca994, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72e9f0f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@397f9672, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d3194ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1db7a4ae, org.springframework.security.web.session.SessionManagementFilter@44b82007, org.springframework.security.web.access.ExceptionTranslationFilter@18fcfe7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7894a250]
+2019-07-22 22:44:49,135 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 22:44:49,202 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-22 22:44:49,349 INFO org.jarvis.core.autoconfigure.ApplicationContextProvider [main] init application context to ContextUtil
+2019-07-22 22:44:49,350 INFO org.jarvis.core.autoconfigure.ApplicationContextProvider [main] init environment bean to ContextUtil 
+2019-07-22 22:44:49,888 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-07-22 22:44:49,889 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-07-22 22:44:49,955 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-07-22 22:44:49,970 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-07-22 22:44:49,982 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-07-22 22:44:49,988 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] JSR 356 Mapping path /vaadinServlet
+2019-07-22 22:44:50,001 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installing Default AtmosphereInterceptors
+2019-07-22 22:44:50,002 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-07-22 22:44:50,003 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-07-22 22:44:50,004 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-07-22 22:44:50,005 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-07-22 22:44:50,005 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-07-22 22:44:50,007 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-07-22 22:44:50,008 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-07-22 22:44:50,010 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-07-22 22:44:50,011 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-07-22 22:44:50,012 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-07-22 22:44:50,013 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-07-22 22:44:50,014 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-07-22 22:44:50,014 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-07-22 22:44:50,016 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,017 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,018 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,018 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,018 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,019 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,019 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,019 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-07-22 22:44:50,020 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-07-22 22:44:50,021 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-07-22 22:44:50,022 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-07-22 22:44:50,022 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-07-22 22:44:50,022 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Broadcaster Shared List Resources: false
+2019-07-22 22:44:50,023 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Broadcaster Polling Wait Time 100
+2019-07-22 22:44:50,023 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Shared ExecutorService supported: true
+2019-07-22 22:44:50,023 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-07-22 22:44:50,024 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Async I/O Thread Pool Size: 200
+2019-07-22 22:44:50,024 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-07-22 22:44:50,024 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-07-22 22:44:50,024 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-07-22 22:44:50,027 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Invoke AtmosphereInterceptor on WebSocket message true
+2019-07-22 22:44:50,028 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] HttpSession supported: true
+2019-07-22 22:44:50,028 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-07-22 22:44:50,028 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.16 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-07-22 22:44:50,029 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Atmosphere Framework 2.4.30.vaadin1 started.
+2019-07-22 22:44:50,036 INFO com.vaadin.external.org.slf4j.impl.JDK14LoggerAdapter [main] Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-07-22 22:44:50,062 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-07-22 22:44:50,093 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-22 22:44:50,100 INFO org.springframework.boot.StartupInfoLogger [main] Started PhMartApplication in 12.749 seconds (JVM running for 15.104)
+2019-07-22 22:48:18,254 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 22:48:18,255 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-22 22:48:18,271 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 16 ms
+2019-07-22 22:48:18,371 WARN com.vaadin.flow.server.DefaultDeploymentConfiguration [http-nio-8080-exec-2] 
+===========================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+===========================================================
+2019-07-22 22:48:26,438 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-6] HHH000397: Using ASTQueryTranslatorFactory
+2019-07-22 22:48:26,882 INFO org.jarvis.phmart.view.sale.SalePresenter [http-nio-8080-exec-1] org.jarvis.phmart.view.sale.SalePresenter@69032fab
+2019-07-22 22:48:27,261 INFO org.jarvis.phmart.view.sale.SaleViewImpl [http-nio-8080-exec-1] org.jarvis.phmart.view.sale.SaleViewImpl@7cb7a930
+2019-07-22 22:48:30,664 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-2] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl
+2019-07-22 22:49:07,099 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-5] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl
+2019-07-22 22:49:14,996 INFO org.jarvis.phmart.view.product.ProductPresenter [http-nio-8080-exec-10] org.jarvis.phmart.view.product.ProductPresenter@74a23f54
+2019-07-22 22:49:15,279 INFO org.jarvis.phmart.view.product.ProductViewImpl [http-nio-8080-exec-10] org.jarvis.phmart.view.product.ProductViewImpl@55aab5e1
+2019-07-22 22:49:17,141 INFO org.jarvis.core.autoconfigure.LoggableInjector [http-nio-8080-exec-7] inject logger into bean org.jarvis.phmart.view.report.ReportViewImpl

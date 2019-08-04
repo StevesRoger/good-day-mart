@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="Khmer OS New">
+        <normal><![CDATA[receipt/fonts/KhmerOSNew-Regular.ttf]]></normal>
+        <bold><![CDATA[receipt/fonts/KhmerOSNew-Bold.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <exportFonts/>
+    </fontFamily>
+	<fontFamily name="Khmer OS System">
+        <normal><![CDATA[receipt/fonts/KhmerOSsys.ttf]]></normal>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <exportFonts/>
+    </fontFamily>
+	<!--<fontFamily name="Khmer OS New">
+        <normal><![CDATA[receipt/fonts/KhmerOSsys.ttf]]></normal>
+        <bold><![CDATA[receipt/fonts/KhmerOSNew-Bold.ttf]]></bold>
+        <italic><![CDATA[receipt/fonts/KhmerOSsys.ttf]]></italic>
+        <bolditalic><![CDATA[receipt/fonts/KhmerOSsys.ttf]]></bolditalic>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <exportFonts/>
+    </fontFamily>-->
+</fontFamilies>
